@@ -1,0 +1,23 @@
+.list-item {
+    border: 2px solid #3004f3;
+    width: 400px;
+    height: auto;
+    margin: 20px;
+    padding: 10px;
+    border-radius: .5rem;
+    color: #404040;
+}
+
+.completed {
+    background: #999999;
+}
+
+.stamp {
+    position: relative;
+    top: -93px;
+    left: 31px;
+    transition: 3s;
+    transform: rotate(-31deg);
+    font-size: 2rem;
+    color: white;
+}
